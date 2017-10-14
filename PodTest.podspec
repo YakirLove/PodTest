@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTest'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'PodTest'
 
   s.description      = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuyanji' => '282335315@qq.com' }
-  s.source           = { :git => 'https://github.com/YakirLove/PodTest.git', :tag => '0.0.2' }
+  s.source           = { :git => 'https://github.com/YakirLove/PodTest.git', :tag => '0.0.3' }
  
   s.ios.deployment_target = '8.0'
 
