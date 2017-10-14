@@ -20,6 +20,17 @@
     self.title = @"A";
     self.view.backgroundColor = [UIColor redColor];
     
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
+    [button setTitle:@"third" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(zTouch:) forControlEvents:UIControlEventTouchUpInside];
+    
+}
+
+-(void)zTouch:(UIButton *)button
+{
+
 }
 
 - (void)didReceiveMemoryWarning {
